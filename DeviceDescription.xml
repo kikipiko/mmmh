@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+  <specVersion>
+    <major>1</major>
+    <minor>0</minor>
+  </specVersion>
+  <device>
+    <deviceType>urn:samsung.com:device:FileTransferServer:1</deviceType>
+    <friendlyName>[Phone] Galaxy J6+</friendlyName>
+    <manufacturer>Samsung Electronics</manufacturer>
+    <manufacturerURL>http://www.samsung.com</manufacturerURL>
+    <modelDescription>file transfer</modelDescription>
+    <modelName>file transfer device</modelName>
+    <modelNumber>1.0</modelNumber>
+    <modelURL>http://www.samsung.com</modelURL>
+    <serialNumber>200807140950</serialNumber>
+    <UDN>uuid:94f2560e-6620-47f1-8060-57740678893e</UDN>
+    <sec:ProductCap>p2pmac=d2:7f:a0:f1:29:37;</sec:ProductCap>
+    <serviceList>
+      <service>
+        <serviceType>urn:samsung.com:service:FileTransport:1</serviceType>
+        <serviceId>urn:samsung.com:serviceId:FileTransport</serviceId>
+        <controlURL>/smp_4_</controlURL>
+        <eventSubURL>/smp_5_</eventSubURL>
+        <SCPDURL>/smp_3_</SCPDURL>
+      </service>
+    </serviceList>
+  </device>
+</root>
